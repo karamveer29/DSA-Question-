@@ -14,8 +14,6 @@ public class bBubbleSort {
         System.out.println("Enter the elements:");
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
-        }
-
         // Bubble Sort
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - 1 - i; j++) {
